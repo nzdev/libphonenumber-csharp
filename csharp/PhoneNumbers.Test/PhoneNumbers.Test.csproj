@@ -78,13 +78,13 @@
     <Compile Include="TestShortNumberUtil.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PhoneNumbers\PhoneNumbers.csproj">
-      <Project>{775A5AF2-FB45-4CE5-88D0-B1BE8AD56459}</Project>
-      <Name>PhoneNumbers</Name>
-    </ProjectReference>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <ItemGroup>
-    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+    <ProjectReference Include="..\PhoneNumbers35\PhoneNumbers35.csproj">
+      <Project>{8e05f35b-29fc-4f87-8a99-b279cdeb1b10}</Project>
+      <Name>PhoneNumbers35</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
